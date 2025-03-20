@@ -26,7 +26,7 @@ Ensure you have Python 3.7 or later installed, then run:
 ```sh
 pip install -r requirements.txt
 ```
-## How It Works ([SKIP](#usage))
+## How It Works ([SKIP](#-usage))
 
 ### 1. Setup Web Driver  
 
@@ -86,7 +86,7 @@ titles_to_scrape = [
 2. Run the script:  
 
 ```sh
-python pdfDrive.scrapper.py
+python pdfDrive_scrapper.py
 ```
 
 3. Check the output in `Books.csv`. Example output:
@@ -94,11 +94,11 @@ python pdfDrive.scrapper.py
 ```sh
 |        Title       |               Download Link             |
 |--------------------|-----------------------------------------|
-| Python Programming | https://www.example.com/python-download |
-| Machine Learning   | https://www.example.com/ml-download     |
+| Python Programming | https://www.pdfdrive.com/example-book   |
+| Machine Learning   | https://www.pdfdrive.com/example-book   |
 ```
 
-4. Open download_books.py and add the directory path for downloaded books by editing `download_dir`.
+4. Open `download_books.py` and add the directory path for downloaded books by editing `download_dir`.
 
 ```python
 '''
@@ -120,6 +120,6 @@ python download_books.py
 - Use it responsibly and comply with website policies.  
 - The author is not responsible for misuse.
 
-## License  
+## 📜 License  
 
-This project is licensed under the MIT License. 
+This project is licensed under the [MIT License](LICENSE).
